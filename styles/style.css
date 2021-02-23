@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 16px;
+    background-image: url('https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    color: #0a043c;
+}
+
+.container {
+    box-shadow: 0 1px 10px rgb(0,0,2);
+    padding: 3% 5%;
+    border-radius: 4px;
+    background-color: #fafafa;
+}
+
+.form h2 {
+    text-align: center;
+    margin: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.form-controller {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-controller label {
+    display: block;
+    color: #0a043c;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.form-controller input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #f0f0f0;
+    margin-bottom: 5px;
+}
+
+.form-controller input:focus {
+    outline: 0;
+    border-color: #777;
+}
+
+.form-controller p {
+    text-align: center;
+}
+
+.form button {
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    border: none;
+    background-color: rgb(16, 129, 235);
+    border-radius: 4px;
+}
+
+.form button:hover {
+    background-color: rgb(57, 142, 221);
+    
+}
+
+.form button:focus {
+    border: none;
+    outline-color: rgb(57, 142, 221);
+    background-color: rgb(57, 142, 221);
+}
+
